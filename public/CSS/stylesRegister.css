@@ -1,0 +1,13 @@
+#Form-tag{
+    text-align: center;
+    width: auto;
+    background-image: url(Images/registerBG.avif);
+    padding: 4% 30%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+}
+.form-control{
+    text-align: center;
+    border-color: rgb(239, 140, 19);
+    border: 1px dashed;
+}

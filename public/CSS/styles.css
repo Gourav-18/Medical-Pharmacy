@@ -1,0 +1,171 @@
+.navColor{
+    background-color: rgb(115, 244, 244);
+}
+
+.row-bg{
+    background-image: url(Images/BackgroundImage.jpg);
+}
+.Big-Heading
+{
+    margin: 50px 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+    font-weight: bolder;
+    color: rgb(75, 77, 79);
+}
+.imgcl{
+    margin: 50px 100px;
+    width: 80%;
+    border-radius: 50%;
+    opacity:1;
+}
+
+#features{
+    margin: 100px 70px;
+}
+.feature-box{
+    padding: 25px 50px;
+    text-align: center;
+}
+
+#testimonials{
+    margin-top: 70px;
+    background-color:rgb(115, 244, 244);
+    color:black;
+    text-align: center;
+}
+.IM{
+    border-radius: 50%;
+    width: 35%;
+    margin: 15px;
+    height: 200px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-text
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.0rem;
+}
+.testimonial-h2
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(25, 23, 23);
+}
+#press{
+    background-color:white;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 75px;
+}
+.press-img{
+    width: 150px;
+    height: 150px;
+    margin:30px 30px 30px 30px;
+}
+
+#lab-Test{
+    background-image: url(Images/medical-healthcare-blue-color_1017-26807.avif);
+    text-align: center;
+    padding: 4% 8%;
+}
+.labnames{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration:underline;
+}
+.test-name{
+    margin: 50px 0px;
+}
+
+#pricing{
+    margin-top: 75px;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.card-text{
+    text-align: left;
+}
+
+#cta{
+    text-align: center;
+    background-color: rgb(115, 244, 244);
+    padding: 5% 10%;
+}
+.CTA-Heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.8rem;
+    color: rgb(52, 49, 49);
+}
+.btncta{
+    margin: 5px;
+}
+
+#footer{
+    text-align: center;
+    margin-top: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.doctors{
+    padding: 3% 5%;
+    background-color: rgb(89, 237, 215);
+}
+.heading{
+    text-align: center;
+    margin-bottom:50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+}
+.docimg{
+    margin-left: 75px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    margin-top: 20px;
+}
+.docimg:hover{
+    opacity: 0.6;
+}
+
+.qualify{
+    margin-left: 75px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:italic;
+    color: black;
+    font-weight: bolder;
+}
+.btn1{
+    margin-left: 75px;
+}
+.btn1:hover{
+    color: rgb(203, 236, 96);
+}
+.qualify:hover{
+    color: gray;
+}
+
+/* **************************Register EJS***************************** */
+.ejsR{
+    padding: 4% 8%;
+    background-image: url(Images/EJS\ Background.avif);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;  
+}
+.ejsborder{
+    border: 5px solid rgb(54, 52, 52);
+    padding: 5%;
+}
+.faejs{
+    text-align: center;
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+
+/* **************************Appoint EJS***************************** */
+.AppointEJS{
+    background-image: url(Images/AppointBG.jpg);
+    padding: 5% 14%;
+}

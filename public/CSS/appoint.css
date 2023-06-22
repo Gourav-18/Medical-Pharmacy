@@ -1,0 +1,69 @@
+.appointform{
+    padding: 3% 6%;
+}
+.well {
+    width: 100%;
+    border: solid 2px #FFE071;
+    background-color :#FFE071;
+    content:"";
+    z-index:-1;
+    -webkit-box-shadow: 0 0 20px rgba(198, 156, 0, 1);
+    -moz-box-shadow: 0 0 20px rgba(198, 156, 0, 1);
+    box-shadow: 0 5px 20px rgba(198, 156, 0, 1);
+}
+
+.well-header {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: helvetica Neue;
+    color: #1E2749;
+    
+}
+
+#disabledSelect{
+    height: 30px;
+}
+/*
+.form-control {
+    height: 30px;
+}
+*/
+.form-group1 {
+    padding-bottom: 45px;
+    height: 5px;
+}
+
+
+
+#disabledSelect{
+    padding-bottom: 25px;
+}
+
+.input-group-addon,.fa> fa-calendar {
+    color: #FFE071;
+    background: #1E2749;
+    border: solid 1px #1E2749;
+}
+
+p, label, checkbox {
+    font-size: 1em;
+    font-weight: bold;
+    color: #1E2749;
+    
+}
+
+.header_p {
+    font-size: 1.1em;
+}
+
+.btn{
+    color: rgba(198, 156, 0, 1);
+    background: #1E2749;
+    border: solid 1px #1E2749;
+    ;
+}
+
+.help-block {
+    color: #1E2749;
+}
+

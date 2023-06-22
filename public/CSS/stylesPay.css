@@ -1,0 +1,17 @@
+#payment{
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn-group-vertical>.btn:not(:first-child),
+.btn-group-vertical>.btn-group:not(:first-child) {
+margin-top: 0;
+}
+.googlepay{
+    text-align: center;
+    width: 200px;
+}

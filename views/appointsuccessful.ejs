@@ -1,0 +1,99 @@
+<%- include("partials/header"); -%>
+    <div class="AppointEJS">
+        <div class="faejs">
+            <h1><i class="fa-solid fa-prescription-bottle-medical">
+                    Help-Pharmacy</i></h1>
+            <h2>Salt Lake City, Bidhannagar Kolkata West Bengal</h2>
+            <h5>Contact No:- 0657-6692626</h5>
+            <h5>Gst-in: GST102659889-23</h5>
+            <h5>Medicinal Licence No:- IMA9966338-DEL</h45>
+        </div>
+        <div class="ejsborder">
+            <h1 class="faejs">Doctors Appointment</h1>
+            <h2 style="text-decoration: underline;">Patients Credentials:-</h2><br>
+            <ul>
+                <li>
+                    <h3>
+                        Appointment Reg. Id: <%= AID %>
+                    </h3>
+                </li>
+                <li>
+                    <h3>
+                        Patient name: <%= AN %>
+                    </h3>
+                </li>
+                <li>
+                    <h3>
+                        How to Contact: <%= ACM %>
+                    </h3>
+                </li>
+                <li>
+                    <h3>
+                        Patients E-Mail: <%= AEM %>
+                    </h3>
+                </li>
+                <li>
+                    <h3>
+                        Patients Contact Nos: <%= APh %>
+                    </h3>
+                </li>
+                <li>
+                    <h3>
+                        Appointment Date: <%= AD %>
+                    </h3>
+                </li>
+                <li>
+                    <h3>
+                        Doctor of Appointment: <%= ADct %>
+                    </h3>
+                </li>
+                <li>
+                    <h3>
+                        Optional Info: <%= AOpt %>
+                    </h3>
+                </li>
+            </ul><br><br>
+            <h4 style="text-align: center;">Appointment Fees : Rs 2000</h4>
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <h5>Deduction fees @ 50% off/- Monthly Membership</h5>
+                    <h4>Appointment amount payable : Rs 1000</h4>
+                    <input type="checkbox" name="Monthly plan" id="Monthly" placeholder="Plan@2999"><input type="text"
+                        placeholder="Membership-Id">
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <h5>Deduction fees @ 100% off/-</h5>
+                    <h4>Appointment amount payable : Rs 0</h4>
+                    <input type="checkbox" name="Yearly plan" id="Yearly" placeholder="Plan@9999"><input type="text"
+                        placeholder="Membership-Id">
+                </div>
+            </div><br><br>
+            <h5 style="text-decoration: underline;">Notes and Precautions:</h5>
+            <ul>
+                <li>
+                    <p>Note: Offline verification of Membership-Id is compulsory by Payment Desk</p>
+                </li>
+                <li>
+                    <p>Make sure you carry your Membership-Id and aadhar card for verification.</p>
+                </li>
+                <li>
+                    <p>Make sure you carry this form on the day of Appointment, click on print option to print it.</p>
+                </li>
+            </ul><br><br>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>___________________________</p>
+                    <h5>Doctors Stamp with Reg. No</h5>
+                </div>
+                <div class="col-lg-6" style="text-align: right;">
+                    <p>_________________________</p>
+                    <h5>Doctors Signature</h5>
+                </div>
+            </div>
+
+        </div>
+        <button class="btn btn-md btn-success" style="margin: 2% 48.5%;"
+            onclick="window.print();return false;">Print</button>
+    </div>
+
+    <%- include("partials/footer"); -%>

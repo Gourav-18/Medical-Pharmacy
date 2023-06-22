@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Widget Wizard</title>
+    <!--Bootstrap inclusion-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Javascript inclusion-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!--Font Awesome inclusion-->
+    <script src="https://kit.fontawesome.com/1445b08426.js" crossorigin="anonymous"></script>
+    <!--google fonts inclusion-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300&family=Sacramento&family=Sevillana&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <!--CSS inclusion-->
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="stylesheet" href="/CSS/appoint.css">
+
+</head>
+
+<body>
+    <!-- ***************************NAVIGATION BAR AREA************************** -->
+    <nav class="navbar navbar-expand-lg navbar-light navColor">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/"><i class="fa-solid fa-prescription-bottle-medical">
+                    Help-Pharmacy</i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#lab-Test">Medicines & Lab Tests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Doctors.html">Doctors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="About.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More Help.
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="login.html">Login / Sign-Up</a></li>
+                            <li><a class="dropdown-item" href="index.html">Membership</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-dark" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="col-lg-12 appointform">
+        <div class="well">
+            <form action="/appoint" method="post">
+                <div class="well-header">BOOK ONLINE</div>
+                <hr>
+                <p class="header_p">Even though walk-ins are Welcome,
+                    we encourage you to contact us via the form below to
+                    set your appointment. You will be contacted within 24 hours
+                    for confirmation.</p>
+                <hr>
+
+                <!-- Contact by Input -->
+                <div class="form-group1">
+                    <label for="Select">Contact By:</label>
+                    <select id="Select" name="ACmed" class="form-control">
+                        <option>Email</option>
+                        <option>Phone</option>
+                    </select>
+                </div>
+
+                <!-- fullname Input -->
+                <div class="form-group1">
+                    <label for="inputfullname"></label>
+                    <input type="fullname" name="Aname" class="form-control" id="inputFullname" placeholder="Your Name">
+                </div>
+
+                <!-- email address Input -->
+                <div class="form-group1">
+                    <label for="inputemail"></label>
+                    <input type="email" name="Aemail" class="form-control" id="inputemail" placeholder="Your Email">
+                </div>
+
+                <!-- Phone Input -->
+                <div class="form-group1">
+                    <label for="inputphone"></label>
+                    <input type="phone" name="Aphone" class="form-control" id="inputphone" placeholder="Your Phone">
+                </div>
+                <hr>
+                <!-- Appointment date -->
+                <p>Appointment Date:</p>
+
+                <!-- 1st Choice Input -->
+
+
+
+                <div class="form-group">
+                    <label for="datepicer">1st Choice:</label>
+                    <div class="input-group date" id="datetimepicker8">
+                        <input type="date" name="Adate" class="form-control">
+                        <span class="input-group-addon"><span class="fa fa-calendar"></span></span>
+                    </div>
+                </div>
+                <!-- Service Input -->
+                <div class="form-group">
+                    <label for="Select">Doctor Required:</label>
+                    <select id="Select" name="Adoct" class="form-control">
+                        <option>SELECT DOCTOR OF SPECIALITY</option>
+                        <option>Dr. Naresh Trehan
+                            MBBS Ph.D Delhi India,
+                            Cardiologists 26-Y Experience</option>
+                        <option>Dr Sanofiya Anturi
+                            Doctrate Calfornia USA,
+                            Pulmo-Specialists 10-Y Experience</option>
+                        <option>Dr Arland Winsies
+                            Harvard University UK,
+                            Dermatologist 12-Y Experience</option>
+                        <option>Dr Nick Jones
+                            Doctrate Calfornia USA,
+                            Medicine-Specialists 8-Y Experience</option>
+                        <option>Dr Rustam Rastogi
+                            MBBS and Ph.D Allahabad Ind,
+                            Gasterologists 20-Y Experience</option>
+                        <option>Dr Srikhand Nath
+                            MBBS Thiruvanantpuram India,
+                            Orthopeadic 16-Y Experience</option>
+                        <option>Dr Liara Rosin
+                            MBBS Pune Ph.d Delhi India,
+                            Dentist and Dental Surg. 9-Y Experience
+                        </option>
+                        <option>Dr Amar Sharma
+                            MBBS and Ph.D Patna India,
+                            Surgeon spec. 18-Y Experience</option>
+                        <option>Dr Marie Gosrill
+                            Doctrate Calfornia USA,
+                            Gyanico-Specialists 6-Y Experience</option>
+                        <option>Dr Sidhonath Bandopadhyay
+                            MBBS Pune and Ph.D Allahabad India,
+                            Neurologist and Neuro-surgeon. 25-Y Experience</option>
+                        <option>Dr Pretti Aggarwal
+                            Doctrate Texas Ph.D Atlanta USA,
+                            ENT-Specialists and surgeon 8-Y Experience</option>
+                        <option>Dr Amritnath Mukherjee
+                            MBBS Pune and Ph.D Allahabad India,
+                            Audiologist and Audio-surgeon. 11-Y Experience</option>
+                    </select>
+                </div><br>
+                <div class="form-group">
+                    <textarea class="form-control" name="Aopt" type="textarea" id="message"
+                        placeholder="Additional Message for registration dept." maxlength="140" rows="7"></textarea>
+
+                </div>
+
+                <!-- Button Area-->
+                <div class="checkbox">
+                    <label><input type="checkbox">Terms &amp; conditions</label>
+                </div>
+
+                <button type="submit" class="btn">Submit</button>
+                <button type="submit" class="btn">Cancel</button>
+                <hr>
+                <span class="help-block">all appointment have $10 cancellation fee, thank you.</span>
+            </form>
+
+            <!-- form end -->
+        </div><!-- well end -->
+    </div>
+
+</body>
+
+</html>

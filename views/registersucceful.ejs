@@ -1,0 +1,54 @@
+<%- include("partials/header"); -%>
+
+    <div class="ejsR">
+        <div class="faejs">
+            <h1><i class="fa-solid fa-prescription-bottle-medical">
+                    Help-Pharmacy</i></h1>
+            <h3>Salt Lake City, Bidhannagar Kolkata West Bengal</h3>
+            <h4>Contact No:- 0657-6692626</h4>
+            <h4>Gst-in: GST102659889-23</h4>
+        </div>
+        <div class="ejsborder">
+            <h1 class="faejs">Laboratory Test Registration</h1>
+                <h2>Patients Credentials:-</h2>
+                <ul>
+                    <li>
+                        <h3>
+                           Registration Id: <%= PID %>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                           Patient name: <%= PNAME %>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            Patient age: <%= PAGE %>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            Contact Details: <%= PCON %>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                           Test Date: <%= PDATE %>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                           Test Name: <%= PTEST %>
+                        </h3>
+                    </li>
+                    <li>
+                        <h4>
+                           Optional Info: <%= POPT %>
+                        </h4>
+                    </li>
+                </ul>
+        </div>
+        <button class="btn btn-md btn-success" style="margin: 2% 48.5%;" onclick="window.print();return false;">Print</button>
+    </div>
+    <%- include("partials/footer"); -%>
